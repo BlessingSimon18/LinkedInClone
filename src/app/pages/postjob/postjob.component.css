@@ -1,0 +1,45 @@
+.main{
+    background-color: rgba(142, 110, 99, .1);
+}
+.explore{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: initial;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 110px;
+}
+.text{
+    width: 32%;
+    color: rgba(0, 0, 0, .8);
+}
+h1{
+    font-size: 42px;
+    font-weight: normal;
+    color: brown;
+}
+
+.col{
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+}
+.nav-item{
+   list-style-type: none;
+}
+.btn-link{
+    text-decoration: none;
+    background-color: transparent;
+    color: rgba(0, 0, 255,.5);
+    padding: 12px 22px;
+    border-radius: 40px;
+    border: 1.8px solid rgba(0, 0, 255,.5);
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 3px;
+}
+.btn-link:hover{
+    background-color: whitesmoke;
+}

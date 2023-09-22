@@ -1,0 +1,107 @@
+/* .body{
+    width:100%;
+    height: 100vh;
+} */
+.body{
+    width: 100%;
+    padding-left: 110px;
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* height: auto; */
+}
+.col-lg-6{
+    width: 50%;
+    padding-right: 100px;
+}
+h1{
+    width: 100%;
+    font-size: 60px;
+    font-weight: lighter;
+    color: brown;
+    line-height: 70px;
+}
+.form-control{
+    height: 60px;
+    width: 80%;
+    border-color: #000;
+    margin: 10px 0;
+}
+form{
+    position: relative;
+    margin-bottom: 20px;
+}
+span{
+    position: absolute;
+    bottom: 8%;
+    right: 25%;
+    font-size: 17px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.text{
+    width: 70%;
+    font-size: 13px;
+}
+.hr{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    justify-content: initial;
+}
+hr{
+    color: #000;
+    width: 80%;
+    height: 20px;
+}
+.hr p{
+    padding: 0 20px 10px 20px;
+}
+.btn-link{
+    text-decoration: none;
+    background-color: transparent;
+    color: rgba(0, 0, 0, .8);
+    padding: 12px 22px;
+    border-radius: 40px;
+    border: 1.8px solid #000;
+    font-size: 17px;
+    font-weight: 500;
+    height: 55px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+.forgotpass{
+    font-size: 17px;
+    font-weight: bold;
+}
+img{
+    width: 50%;
+    margin-top: 70px;
+    /* padding-right: -50px; */
+}
+
+
+/* .home{
+    background-image: url("https://media.licdn.com/media//AAYQAgSrAAgAAQAAAAAAAEFQ0SVTwDSXRqWvckCS4gYqEA.svg");
+    background-position: center;
+    background-size: cover;
+} */
+
+
+@media screen and (max-width: 992px){
+    .body{
+        flex-direction: column;
+    }
+    img{
+        width: 50%;
+    }
+}

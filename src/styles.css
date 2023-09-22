@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    
+}
+/* html{
+    #scroll-behaviour: smooth;
+    padding: 0;
+} */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, Helvetica, sans-serif, 'Lucida Grande';
+    /* padding-left: 40px; */
+    max-width: 100vw;
+    width: 100%;
+    background-color: white;
+    height: 100vh;
+    /* padding: 0; */
+    /* font-size: 10px; */
+}
+
+
+
+
+/* @media screen and (max-width:992px) {
+    body{
+        padding: -30px;
+    }
+
+} */
