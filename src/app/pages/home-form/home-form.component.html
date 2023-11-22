@@ -3,11 +3,34 @@
     <input #input type="text">
 <p #input>welcome</p>
 </app-input> -->
+<!-- <app-boxes></app-boxes> -->
+<!-- <app-circles></app-circles> -->
+  <!-- Content projection -->
+
+  <!-- take note -->
+  <!-- <div class="circle" #myCirlce>
+
+  </div>
+
+  <app-circles>
+    <div #circle1></div>
+    <div #circle2></div>
+  </app-circles> -->
+
+  <!-- take note -->
+
+<!-- <app-circles>
+    <div #circle>
+        <div #circle></div>
+        <div #circle></div>
+    </div>
+</app-circles> -->
+
 <div class="body">
     <!-- <app-navbar></app-navbar> -->
     
-    <div class="col-lg-6 col=lg-12">
-        <h1>Find jobs through your community</h1>
+    <div class="col-lg-6 col=lg-12" id="form">
+        <h1>Welcome to your professional community</h1>
         <form>
             <label for="username">Email or Phone</label>
             <input type="text" class="form-control" name="username" required />
@@ -20,8 +43,8 @@
                 <!-- <button type="button">Show</button> -->
              </span>
         </form>
-
-        <a href="" class="forgotpass">Forgot password?</a>
+        
+        <a [routerLink]="['/boxes']" class="forgotpass" >Forgot password?</a>
         <div class="buttons">
             <a href=""><button class="btn-link" style="background-color: rgba(0, 0, 255, .8); color: #fff; border-color: transparent;">Sign In</button></a>
 
@@ -73,3 +96,4 @@
 <app-who-is-linked-in-for></app-who-is-linked-in-for>
 <app-join></app-join>
 <app-links></app-links> 
+<app-circles></app-circles>

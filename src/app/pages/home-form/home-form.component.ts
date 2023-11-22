@@ -6,22 +6,22 @@ import { Component, ContentChild, ElementRef, OnInit, ViewChild } from '@angular
   styleUrls: ['./home-form.component.css']
 })
 export class HomeFormComponent implements OnInit {
- @ViewChild('red') red:ElementRef;
+  @ViewChild('red') red:ElementRef;
  
   constructor() {
   console.log('const')
    }
 
   ngOnInit() {
-    console.log('ngonint')
+    console.log('ngoninit')
    }
 
-   ngAfterViewInit(): void {
-    this.red.nativeElement.style.color='red';
-    this.red.nativeElement.style.backgroundColor='black'
-    
+  ngAfterViewInit(): void {
+  this.red.nativeElement.style.color='red';
+  this.red.nativeElement.style.backgroundColor='black'
   
-   }
+
+  }
 
 
 

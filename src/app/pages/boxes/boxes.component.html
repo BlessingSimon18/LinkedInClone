@@ -1,0 +1,77 @@
+<div style="text-align: center">
+  <h2>Tabbed Image Gallery</h2>
+  <p>Click on the images below:</p>
+  
+
+
+<!-- The four columns -->
+<div class="row">
+  <div >
+    <!-- <img [src]="imagepath" (click)="imageclick()"/> -->
+    <!-- <button (click)="onSave()">Save</button> -->
+  </div>
+  <div class="column1">
+    <img
+      src="https://images.unsplash.com/photo-1532628249276-f665f6e9b656?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      alt="Nature"
+      style="width: 100%"
+      (click)="imageclick()"
+    />
+  </div>
+  <div class="column2">
+    <img
+      src="https://images.unsplash.com/photo-1470137430626-983a37b8ea46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      alt="Snow"
+      style="width: 100%"
+      (click)="imageclick()"
+    />
+  </div>
+  <div class="column3">
+    <img
+      src="https://images.unsplash.com/photo-1472195870936-d88b0d4c1b41?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80"
+      alt="Mountains"
+      style="width: 100%"
+      (click)="imageclick()"
+    />
+  </div>
+  <div class="column4">
+    <img
+      src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      alt="Lights"
+      style="width: 100%"
+      (click)="imageclick()"
+    />
+  </div>
+</div>
+
+<!-- <div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn"
+    >&times;</span
+  >
+  <img id="expandedImg" style="width: 100%" />
+  <div id="imgtext"></div>
+</div> -->
+
+<!-- <script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script> -->
+
+
+
+
+
+<app-circles>
+  <div #circle>
+    <div #circle></div>
+    <div #circle></div>
+  </div>
+</app-circles>
+
+
+

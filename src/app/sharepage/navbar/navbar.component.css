@@ -37,9 +37,9 @@ nav{
     height: 50px;
     margin-left: 10px;
 }
-/* .sigin-up{
-    margin: 0 5px 0 15px;
-} */
+.signin-up{
+    margin: 0;
+}
 .btn-link{
     text-decoration: none;
     background-color: transparent;
@@ -79,6 +79,16 @@ nav{
     .line{
         display: none;
     }
+   nav{
+    padding: 10px 6px;
+    width: 100%;
+   }
+   .navbar-brand{
+    font-size: 23px;
+   }
+   .signin-up{
+    padding-left: 155px;
+   }  
 }
 
 

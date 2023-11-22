@@ -1,0 +1,16 @@
+/* Circles */
+/* .cirle_1, .cirle_2, .cirle_3{
+    border-radius: 50%;
+    width: 30%;
+    background-color: aqua;
+  } */
+  .circle1{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+  }
+  .cirle2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }

@@ -9,6 +9,8 @@ import { ExploreComponent } from './pages/explore/explore.component';
 import { FindjobComponent } from './pages/findjob/findjob.component';
 import { ConnectComponent } from './pages/connect/connect.component';
 import { LinksComponent } from './pages/links/links.component';
+import { BoxesComponent } from './pages/boxes/boxes.component';
+import { CirclesComponent } from './pages/circles/circles.component';
 
 const routes: Routes = [
   {path:'', component:HomeFormComponent},
@@ -19,7 +21,9 @@ const routes: Routes = [
   {path:'explore', component:ExploreComponent},
   {path:'findjob', component:FindjobComponent},
   {path:'connect', component:ConnectComponent},
-  {path:'links', component:LinksComponent}
+  {path:'links', component:LinksComponent},
+  {path:'boxes', component:BoxesComponent},
+  {path:'circles', component:CirclesComponent}
 ];
 
 @NgModule({

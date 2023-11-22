@@ -100,8 +100,32 @@ img{
 @media screen and (max-width: 992px){
     .body{
         flex-direction: column;
+        margin: 0;
+        padding: 20px;
     }
     img{
         width: 50%;
     }
+    #form{
+        width: 100%;
+        padding: 0;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .form-control{
+        width: 100%;
+    }
+   label{
+    margin-top: 20px;
+   }
+   span{
+    right: 3%;
+   }
+   form{
+    margin-bottom: 25px;
+   }
+   /* .btn-link:nth-child(1){
+    margin: auto 0;
+   } */
 }

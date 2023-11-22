@@ -16,6 +16,8 @@ import { JoinComponent } from './pages/join/join.component';
 import { LinksComponent } from './pages/links/links.component';
 import { FormsModule } from '@angular/forms';
 import { InputComponent } from './pages/input/input.component';
+import { BoxesComponent } from './pages/boxes/boxes.component';
+import { CirclesComponent } from './pages/circles/circles.component';
 
 
 
@@ -33,7 +35,9 @@ import { InputComponent } from './pages/input/input.component';
     WhoIsLinkedInForComponent,
     JoinComponent,
     LinksComponent,
-    InputComponent
+    InputComponent,
+    BoxesComponent,
+    CirclesComponent
   ],
   imports: [
     BrowserModule,
